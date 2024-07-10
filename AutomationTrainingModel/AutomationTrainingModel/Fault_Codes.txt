@@ -1,0 +1,193 @@
+INTP-105 (%s,%d) Run request failed
+The program cannot be started.
+INTP-248 (%s, %d) MACRO failed
+The macro command can not be executed.
+INTP-250 (%s, %d) Invalid uframe number
+The number of the work plan is not valid.
+INTP-251 (%s, %d) Invalid utool number
+The number of the work tool is invalid.
+INTP-252 User frame number mismatch
+The selected workbench is not valid.
+INTP-253 Tool frame number mismatch
+The selected work tool is not the same as the position tool.
+INTP-447(%s,%d) Parentheses mismatch
+Bad parenthesis combination.
+JOG-001 Emergency Stop Active: 
+The robot is in emergency stop mode, preventing jogging.
+JOG-002 Jogging Not Allowed: 
+Jogging is not allowed in the current operating mode or condition.
+
+JOG-004 Joint Limit Exceeded: 
+Jogging has reached a joint limit.
+JOG-005 Axis Disabled: 
+The axis being jogged is disabled.
+JOG-006 Robot Not Ready: 
+The robot is not ready for jogging.
+JOG-007 Axis Lock Active: 
+The axis being jogged is locked.
+JOG-008 Axis Jogging Error: 
+An error occurred while jogging the axis.
+JOG-009 Axis Stopped: 
+The axis being jogged has stopped unexpectedly.
+JOG-010 Axis Homing: 
+The axis is in the process of homing and cannot be jogged.
+JOG-011 Jogging Disabled: 
+Jogging is disabled for safety reasons or due to a configuration setting.
+JOG-012 Invalid Jog Command: 
+The jog command received is invalid or not recognized.
+JOG-013 Axis In Motion: 
+The axis being jogged is already in motion.
+JOG-014 Jogging Timeout: 
+Jogging has timed out due to inactivity.
+JOG-015 Jogging Interlock Active: 
+An interlock condition prevents jogging.
+JOG-016 Axis Limit Switch Active: 
+A limit switch on the axis being jogged has been triggered.
+JOG-017 External Stop Requested: 
+An external stop request has been issued, preventing jogging.
+JOG-018 Teaching Not Allowed: 
+Teaching mode is not allowed during jogging.
+JOG-019 Axis Jogging Not Configured: 
+Jogging has not been configured for the axis.
+JOG-020 Joint Limit Reached: 
+A joint limit has been reached during jogging.
+MACR-013 MACRO execution failed
+The macro cannot be executed.
+MACR-016 The macro is not completed
+The execution of the macro has been interrupted.
+MOTN-017 Collision Detect Alarm: 
+The robot has detected a collision.
+MOTN-018 Collision Guard Not Enabled: 
+Collision guard is not active or properly configured.
+MOTN-023 In Singularity: 
+The robot is in a singularity condition, where it cannot move as expected due to its joint configuration.
+MOTN-032 Hold During Singularity Avoidance: 
+Motion is held due to the robot attempting to avoid a singularity.
+MOTN-049 In Singularity Avoidance Area: 
+The robot is in an area where singularity avoidance is active.
+MOTN-050 Speed Limitation in Singularity Avoidance Area: 
+Speed is limited due to singularity avoidance.
+MOTN-053 Position Lost: 
+The robot's position has been lost, possibly due to a power interruption or encoder issue.
+MOTN-054 Path Tolerance Error: 
+The actual path deviates beyond the allowable tolerance from the programmed path.
+MOTN-055 Speed Limitation Error: 
+The robot's speed exceeds the set limitation.
+MOTN-060 Arc Start Failure: 
+Failure to start the arc in an arc welding process.
+MOTN-061 Arc End Failure: 
+Failure to end the arc in an arc welding process.
+MOTN-062 Welding Power Supply Alarm: 
+An alarm from the welding power supply.
+MOTN-063 Torch Interference: 
+The welding torch has detected interference.
+MOTN-070 Excessive Path Deviation: 
+The robot deviates excessively from its planned path.
+MOTN-071 Unexpected Disturbance: 
+An unexpected disturbance has been detected during motion.
+MOTN-073 Joint Speed Limit Error: 
+A joint has exceeded its speed limit.
+MOTN-077 Excessive Torque Error: 
+Excessive torque has been detected on one of the robot's axes.
+MOTN-081 Overrun Error: 
+The robot has overrun its intended position.
+MOTN-100 Collision Detect Level: 
+The collision detection level has been exceeded.
+MOTN-113 Wrist Joint Singular Error: 
+A singularity condition related to the wrist joints has been detected.
+MOTN-200 Error in Joint Interpolation: 
+An error has occurred during joint interpolation.
+MOTN-220 Programmed Path Error: 
+The programmed path contains an error or is not executable.
+MOTN-400 Start of Singular Area: 
+The robot has entered a singular area.
+MOTN-401 End of Singular Area: 
+The robot has exited a singular area.
+MOTN-402 Interpolation Buffer Full: 
+The interpolation buffer is full.
+MOTN-403 Path Planning Error: 
+An error has occurred in path planning.
+MOTN-404 Position Limit Error: 
+A position limit has been exceeded.
+PROG-048 Shift released while running (prog)
+The SHIFT key was released while the program was running in T1 or T2 mode.
+SRVO-003 or SRVO-234 Deadman switch release
+The yellow buttons on the back of the controller have been released while the programming the robot in T1 mode.
+SRVO-062 BZAL alarm (G :x A :x) or SRVO-084 BZAL alarm
+Encoder batteries have low voltage or the encoder cable is disconnected.
+SRVO-080 OVC alarm
+The RMS current calculated by the “servo-drive” exceeds the allowed value. This alarm protects the motor and amplifiers against thermal damage.
+SRVO-160 Panel/external E-stop
+The controller emergency stop button or the external emergency stop has been pressed.
+SRVO-161 Fence open or Deadman switch released
+This alarm appears when the “deadman” buttons are released, or the robot’s fence is open.
+SRVO-162 Deadman/Fence or Panel/External E-stop
+This code appears when the “deadman” buttons are released, when the protective envelope (fence) of the robot is open, or when one of the emergency stop buttons is pressed.
+SRVO-230 or SRVO-231 Chain (1 or 2) abnormal
+This alarm appears if there is a break in Channel 1 (24V) or Channel 2 (0V) of the emergency stop circuit.
+SRVO-324 Disturbance excess
+The torque limit of a specific joint is reached.
+SYST-001 System Alarm: 
+General system error.
+SYST-002 System Overheat: 
+Indicates that the system temperature is too high.
+SYST-003 System Low Voltage: 
+Indicates a low voltage condition in the system.
+SYST-004 System High Voltage: 
+Indicates a high voltage condition in the system.
+SYST-005 Watchdog Timer Alarm: 
+The system watchdog timer has detected a fault.
+SYST-006 Power Fail: 
+Power failure has been detected.
+SYST-007 Memory Error: 
+An error has been detected in the system memory.
+SYST-008 SRAM Error: 
+An error has been detected in the Static RAM.
+SYST-009 Flash ROM Error: 
+An error has been detected in the Flash ROM.
+SYST-010 CMOS Error: 
+An error has been detected in the CMOS memory.
+SYST-011 System Error: 
+General system error (specific details will be provided in the error message).
+SYST-012 CPU Error: 
+An error has been detected in the CPU.
+SYST-013 Expansion Board Error: 
+An error has been detected on an expansion board.
+SYST-014 Network Error: 
+A network communication error has been detected.
+SYST-015 Battery Low: 
+The system battery voltage is low.
+SYST-016 Overcurrent: 
+Overcurrent condition detected in the system.
+SYST-017 External Device Error: 
+An error has been detected in an external device.
+SYST-018 External Alarm: 
+An external alarm condition has been detected.
+SYST-019 Serial Port Error: 
+A communication error has been detected on the serial port.
+SYST-020 Safety System Error: 
+An error has been detected in the safety system.
+SYST-021 Communication Timeout: 
+A communication timeout has occurred.
+SYST-022 Configuration Error: 
+A configuration error has been detected.
+SYST-023 Data Mismatch: 
+Mismatch detected in the data.
+SYST-024 Program Load Error: 
+An error occurred while loading a program.
+SYST-025 Initialization Error: 
+An error occurred during system initialization.
+SYST-026 Encoder Error: 
+An error has been detected in the encoder.
+SYST-027 Resolver Error: 
+An error has been detected in the resolver.
+SYST-028 Axis Error: 
+A general axis error has been detected.
+SYST-029 Software Error: 
+A software error has been detected.
+SYST-030 User Alarm: 
+A user-defined alarm condition has been detected.
+SYST-043 TP disabled in T1/T2 mode
+The Mode Selector is in T1 or T2 while the Robot Controller Selector is ON.
+SYST-045 TP enabled in AUTO mode
+The Robot Controller Selector is ON and set in AUTO.

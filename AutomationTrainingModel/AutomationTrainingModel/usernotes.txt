@@ -1,0 +1,24 @@
+gggg
+Test input
+Test return successful
+Fanuc Fault Code:
+3 TOO MANY DIGITS
+Solution:
+Data exceeding the maximum allowable number of digits was input. (Refer to the item of max. programmable dimensions.)
+
+0 PLEASE TURN OFF POWER
+A parameter which requires the power off was input, turn off power.
+
+1 TH PARITY ALARM
+TH alarm (A character with incorrect parity was input). Correct the tape.
+
+1 TH PARITY ALARM
+Tape may be okay, also try to swap the unit
+
+
+
+
+
+JOG-003 Jogging Speed Limit Exceeded:
+Test solution
+

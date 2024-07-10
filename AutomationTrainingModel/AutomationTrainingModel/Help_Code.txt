@@ -1,0 +1,4 @@
+How to use:
+Type in the text box what the fault is, or any information regaurding the issue.
+If a solution is found, a window will open and display any information in regards to the issue.
+

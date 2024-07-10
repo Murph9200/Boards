@@ -1,0 +1,5 @@
+Sip objectives
+
+1) Provide a good user interface that is easy to follow using python
+2) Provide good feedback 
+3)
